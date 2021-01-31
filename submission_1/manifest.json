@@ -1,0 +1,16 @@
+{
+    "name": "Luky Portfolio",
+    "short_name": "Luky Portfolio",
+    "description": "Submission PWA Dicoding",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#01579b",
+    "theme_color": "#01579b",
+    "icons": [
+        {
+            "src": "img/profile.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

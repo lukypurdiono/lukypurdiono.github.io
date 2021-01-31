@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', function(){
 				if(this.status != 200) return;
 
 				// Muat daftar tautan menu
-				document.querySelectorAll(".topnav, .sidenav")
+				document.querySelectorAll(".topnav, .sidenav, .card")
 				.forEach(function(elm){
 					elm.innerHTML = xhttp.responseText;
 				});
 
 				// Daftarkan event listener untuk setiap tautan menu
-				document.querySelectorAll('.sidenav a, .topnav a')
+				document.querySelectorAll('.sidenav a, .topnav a, .card a')
 				.forEach(function(elm){
 					elm.addEventListener('click', function(event){
 						// Tutup sidenav
